@@ -2,7 +2,7 @@ const path = require('path')
 const fs = require('fs')
 const changeTime = require('change-file-time')
 
-const directoryPath = path.join(__dirname, 'JPG_Asterix_test');
+const directoryPath = path.join(__dirname, 'JPG_Tintin');
 console.log(directoryPath)
 
 let fileTimer = (file, timer, length) => {
